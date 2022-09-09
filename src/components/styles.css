@@ -1,0 +1,23 @@
+.navbar {
+  min-height: 8rem;
+  width: 100%;
+}
+
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 600px;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.navbar-logo {
+  height: 4rem;
+}
+
+.logo{
+  height: 5rem;
+  width: 100%;
+}
