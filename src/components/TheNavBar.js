@@ -22,16 +22,24 @@ function TheNavBar() {
               </NavDropdown.Item>
               </NavLink>
               <NavDropdown.Item href="#action/3.2">
-                Another action
+                <NavLink to="/pages/personal/DepositProducts"> Deposit Products </NavLink>
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="Business Partner" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Personal</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
+              <NavDropdown.Item href="#action/3.1">
+                <NavLink to="/pages/business/BusinessBrandPartners">Brand Partners</NavLink>
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">
+                <NavLink to="/pages/business/AssetFinance">
+                  Asset Finance
+                </NavLink>
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">
+                <NavLink to="/pages/business/Commercial">
+                  Commercial Insurance Premium Finance
+                </NavLink>
+              </NavDropdown.Item>
+
             </NavDropdown>
             <Nav.Link href="#link">
               <NavLink to="/pages/BecomePartner">Become A Partner</NavLink>
