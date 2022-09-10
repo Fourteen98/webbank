@@ -1,4 +1,6 @@
 import React from "react";
+import {NavLink} from "react-router-dom";
+import NavDropdown from "react-bootstrap/NavDropdown";
 
 function Footer() {
   return (
@@ -18,37 +20,56 @@ function Footer() {
               <div className="columns">
                 <div className="column">
                   <p className="is-size-4">Personal</p>
-                  <p className="footer-link"><a href="/pages/personal/brand_partners.html" className="">Brand
-                    Partners</a>
+                  <p className="footer-link"><a href="#" className="">
+                    <NavLink to="/pages/personal/BrandPartners">
+                      Brand Partners
+                    </NavLink>
+                  </a>
                   </p>
-                  <p className="footer-link"><a href="/pages/personal/deposit-products.html" className="">Deposit
-                    Products</a></p>
+                  <p className="footer-link"><a href="#" className="">
+                    <NavLink to="/pages/personal/DepositProducts"> Deposit Products </NavLink>
+                    </a></p>
                 </div>
                 <div className="column">
                   <p className="is-size-4">Business</p>
-                  <p className="footer-link"><a href="/pages/business/business_brand_partners.html" className="">Brand
-                    Partners</a></p>
-                  <p className="footer-link"><a href="/pages/business/asset_finance.html" className="">Asset Finance</a>
+                  <p className="footer-link"><a href="#" className="">
+                    <NavLink to="/pages/business/BusinessBrandPartners">Brand Partners</NavLink>
+                  </a></p>
+                  <p className="footer-link"><a href="#" className="">
+                    <NavLink to="/pages/business/AssetFinance">
+                      Asset Finance
+                    </NavLink>
+                  </a>
                   </p>
                   <p className="footer-link">
-                    <a href=
-                         "/pages/business/commercial_insurance_premium_finance.html"
-
-                       className="">Commercial Insurance Premium Finance
+                    <a href="#" className="">
+                      <NavLink to="/pages/business/Commercial">
+                        Commercial Insurance Premium Finance
+                      </NavLink>
                     </a>
                   </p>
                 </div>
                 <div className="column">
                   <p className="is-size-4">WebBank</p>
-                  <p className="footer-link"><a href="/pages/about_us/about_webbank.html" className="">About Us</a></p>
-                  <p className="footer-link"><a href="/pages/about_us/leadership_team.html" className="">Leadership
-                    Team</a></p>
-                  <p className="footer-link"><a href="/pages/about_us/working_at_webbank.html" className="">Working at
-                    WebBank</a></p>
-                  <p className="footer-link"><a href="/pages/about_us/business_associations.html" className="">Business
-                    Associations and
-                    Memberships</a></p>
-                  <p className="footer-link"><a href="#"> Financial Statement Link </a></p>
+                  <p className="footer-link"><a href="#" className="">
+                    <NavLink to="/pages/about/AboutWebBank">
+                      About Us
+                    </NavLink>
+                  </a></p>
+                  <p className="footer-link"><a href="#" className="">
+                    <NavLink to="/pages/about/Leadership">
+                      Leadership Team
+                    </NavLink>
+                    </a></p>
+                  <p className="footer-link"><a href="#" className="">
+                    <NavLink to="/pages/about/Working">Working at WebBank</NavLink>
+                  </a></p>
+                  <p className="footer-link"><a href="#" className="">
+                      <NavLink to="/pages/about/BusinessAssociations">Business Associations and Memberships</NavLink>
+                  </a></p>
+                  <p className="footer-link"><a href="#">
+                    <NavLink to="/pages/about/NewsRoom">Financial Statement Link</NavLink>
+                  </a></p>
                 </div>
                 <div className="column">
                   <p className="is-size-4">Policies</p>
@@ -56,7 +77,7 @@ function Footer() {
                   <p className="footer-link"><a href="/pages/footers/us_patriot_act.html" className="">USA PATRIOT
                     Act</a>
                   </p>
-                  <p className="footer-link"><a href="/pages/footers/privacy.html" className="">Privacy</a></p>
+                  <p className="footer-link"><a href="#" className=""><NavLink to="/pages/about/Privacy">Privacy</NavLink></a></p>
                   <p className="footer-link"><a href="/pages/footers/terms.html" className="">Terms of Use</a></p>
                 </div>
               </div>

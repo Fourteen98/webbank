@@ -14,13 +14,12 @@ function TheNavBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <NavDropdown title="Personal" id="basic-nav-dropdown">
-              <NavLink to="/pages/personal/BrandPartners">
+
               <NavDropdown.Item href="/pages/personal/BrandPartners">
-
+                <NavLink to="/pages/personal/BrandPartners">
                   Brand Partners
-
+                </NavLink>
               </NavDropdown.Item>
-              </NavLink>
               <NavDropdown.Item href="#action/3.2">
                 <NavLink to="/pages/personal/DepositProducts"> Deposit Products </NavLink>
               </NavDropdown.Item>
@@ -45,11 +44,30 @@ function TheNavBar() {
               <NavLink to="/pages/BecomePartner">Become A Partner</NavLink>
             </Nav.Link>
             <NavDropdown title="About Us" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
+              <NavDropdown.Item href="#action/3.1">
+                <NavLink to="/pages/about/AboutWebBank">About WebBank</NavLink>
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">
+                <NavLink to="/pages/about/Leadership">Leadership</NavLink>
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">
+                <NavLink to="/pages/about/Working">Working at WebBank</NavLink>
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">
+                <NavLink to="/pages/about/ContactUs">Contact Us</NavLink>
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">
+                <NavLink to="/pages/about/NewsRoom">News Room</NavLink>
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">
+                <NavLink to="/pages/about/NewsRoom">Financial Statement Link</NavLink>
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">
+                <NavLink to="/pages/about/Privacy">Privacy</NavLink>
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">
+                <NavLink to="/pages/about/BusinessAssociations">Business Associations and Memberships</NavLink>
+              </NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
