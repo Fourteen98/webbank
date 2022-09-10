@@ -14,7 +14,13 @@ function TheNavBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <NavDropdown title="Personal" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              <NavLink to="/pages/personal/BrandPartners">
+              <NavDropdown.Item href="/pages/personal/BrandPartners">
+
+                  Brand Partners
+
+              </NavDropdown.Item>
+              </NavLink>
               <NavDropdown.Item href="#action/3.2">
                 Another action
               </NavDropdown.Item>

@@ -13,9 +13,13 @@ function Home() {
                   <div className="column is-8 is-offset-4-desktop has-text-right">
                     <div className="hero-box-right">
                       <p className="title hero-title"> The Bank<br></br>Behind The Brand</p>
-                      <p className="subtitle hero-subtitle"> As the Bank Behind The Brand<sup>®</sup>, we empower
+                      <p className="subtitle hero-subtitle">
+                        As the Bank Behind The Brand
+                        <sup>®</sup>
+                        , we empower
                         fintech
-                        partners to drive innovation and financial inclusion. </p><br></br><a
+                        partners to drive innovation and financial inclusion.
+                      </p><br></br><a
                       href="/pages/become_a_partner.html"
                       className="button is-primary is-large">Partner With Us</a>
                     </div>
@@ -25,7 +29,8 @@ function Home() {
             </section>
           </div>
         </section>
-        <div className="blue-bg is-hidden-desktop"><img src="https://assets.webbank.com/wb-hero-mobile.png" alt="wb-hero-mobile"></img>
+        <div className="blue-bg is-hidden-desktop">
+          <img src="https://assets.webbank.com/wb-hero-mobile.png" alt="wb-hero-mobile"></img>
           <section className="hero wb-hero-mobile">
             <div className="hero-body">
               <section className="section">
