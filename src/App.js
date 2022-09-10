@@ -17,6 +17,8 @@ import NewsRoom from "./pages/about/NewsRoom";
 import FinancialStatementLink from "./pages/about/FinancialStatementLink";
 import Privacy from "./pages/about/Privacy";
 import BusinessAssociations from "./pages/about/BusinessAssociations";
+import Terms from "./footer/Terms";
+import Uiega from "./footer/Uiega";
 import React from "react";
 
 function App() {
@@ -40,6 +42,8 @@ function App() {
           <Route path="/pages/about/FinancialStatementLink" element={<FinancialStatementLink />}/>
           <Route path="/pages/about/Privacy" element={<Privacy />}/>
           <Route path="/pages/about/BusinessAssociations" element={<BusinessAssociations />}/>
+          <Route path="/pages/footer/Terms" element={<Terms />}/>
+          <Route path="/footer/Uiega" element={<Uiega />}/>
         </Routes>
         <Footer/>
       </div>

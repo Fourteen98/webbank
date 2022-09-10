@@ -73,12 +73,16 @@ function Footer() {
                 </div>
                 <div className="column">
                   <p className="is-size-4">Policies</p>
-                  <p className="footer-link"><a href="/pages/footers/uiega.html" className="">UIEGA</a></p>
-                  <p className="footer-link"><a href="/pages/footers/us_patriot_act.html" className="">USA PATRIOT
+                  <p className="footer-link"><a href="#" className="">
+                    <NavLink to="/footer/Uiega">UIEGA</NavLink>
+                  </a></p>
+                  <p className="footer-link"><a href="/footers/us_patriot_act.html" className="">USA PATRIOT
                     Act</a>
                   </p>
                   <p className="footer-link"><a href="#" className=""><NavLink to="/pages/about/Privacy">Privacy</NavLink></a></p>
-                  <p className="footer-link"><a href="/pages/footers/terms.html" className="">Terms of Use</a></p>
+                  <p className="footer-link"><a href="#" className="">
+                    <NavLink to="/pages/footer/Terms">Terms of Use</NavLink>
+                  </a></p>
                 </div>
               </div>
             </div>

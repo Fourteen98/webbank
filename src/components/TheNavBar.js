@@ -9,7 +9,11 @@ function TheNavBar() {
   return (
     <Navbar className="navbar" bg="light" expand="xxl">
       <Container className="navbar-container">
-        <div className="navbar-logo"> <img className="logo" src="https://assets.webbank.com/webbank-logo.svg" alt="logo"></img></div>
+        <div className="navbar-logo">
+          <NavLink to="/">
+            <img className="logo" src="https://assets.webbank.com/webbank-logo.svg" alt="logo"></img>
+          </NavLink>
+        </div>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -71,7 +75,12 @@ function TheNavBar() {
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
+
       </Container>
+      <div className="navbar-item">
+        <div className="buttons"><a href="https://www.netteller.com/webbank" target="_blank"
+                                    className="button is-primary"><strong>Online Banking</strong></a></div>
+      </div>
     </Navbar>
   );
 }

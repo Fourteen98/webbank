@@ -1,6 +1,7 @@
 .navbar {
   min-height: 8rem;
   width: 100%;
+  padding-left: 90px;
 }
 
 .navbar-container {
@@ -11,6 +12,7 @@
   padding: 0;
   margin: 0;
   width: 100%;
+  white-space: nowrap;
 }
 
 .navbar-logo {
